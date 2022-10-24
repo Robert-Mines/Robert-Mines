@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CIS247C - Course Project", "CIS247C - Course Project.vcxproj", "{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Debug|x64.ActiveCfg = Debug|x64
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Debug|x64.Build.0 = Debug|x64
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Debug|x86.ActiveCfg = Debug|Win32
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Debug|x86.Build.0 = Debug|Win32
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Release|x64.ActiveCfg = Release|x64
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Release|x64.Build.0 = Release|x64
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Release|x86.ActiveCfg = Release|Win32
+		{4076EBEB-EFA0-4EC9-AFD4-121AB2B54503}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {763272B0-3511-4E22-93C8-8F5E93130AC2}
+	EndGlobalSection
+EndGlobal
