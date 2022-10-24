@@ -1,0 +1,5 @@
+﻿  SpellChecker.cpp
+C:\Users\mines\OneDrive\Documents\CEIS295 Files\CEIS295 Final Project\CEIS295 Final Project\SpellChecker.cpp(21,14): warning C4101: 'flen': unreferenced local variable
+C:\Users\mines\OneDrive\Documents\CEIS295 Files\CEIS295 Final Project\CEIS295 Final Project\SpellChecker.cpp(60,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mines\OneDrive\Documents\CEIS295 Files\CEIS295 Final Project\CEIS295 Final Project\SpellChecker.cpp(133): warning C4715: 'SpellChecker::missingCharacter': not all control paths return a value
+  CEIS295 Final Project.vcxproj -> C:\Users\mines\OneDrive\Documents\CEIS295 Files\CEIS295 Final Project\Debug\CEIS295 Final Project.exe
