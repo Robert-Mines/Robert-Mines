@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2020, 9:03:57 AM
+    Author     : tevis
+*/
+
+label {
+    text-align: right;
+    font-size: 1em;
+    color: #e60000;
+}
+    label.radioList {
+        font-size: .5em;
+    }
+
+.question {
+        font-style:italic;
+        font-weight:500;
+    }
+
+form .row {
+    margin-bottom: .25em;
+
+}
+
+
+fieldset {
+    padding-left: .66em;
+    margin: .5em;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e60000;
+}
+
+legend {
+    width: 25%;
+	padding-left:  2em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    font-weight: bold;
+    font-size: 1.0em;
+    color: #e60000;
+}
+input[type=text], input[type=email], input[type=tel] {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+
+input[type=text] .invalid {
+    border: red;
+}
+input[type=text] .valid {
+    border: black;
+}
+input[type=text] #expirDate {
+    color: e60000;
+}
+a #expirDate {
+    color: e60000;
+}
+
+input:required, input[required] {
+    border: 1px solid red;
+}
+input[type=submit], input[type=reset] {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+    input:invalid {
+        box-shadow: none;
+    }
+
+.agreeLabel {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+#payment {
+    clear: left;
+    padding: .5em;
+    width: 40%;
+    margin-left: 10%;
+    background-color: white;
+}
+#orders select {
+	width:3em;
+}
+
+
+
+.order {
+    display: inline-block;
+    float: left;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 1.25em;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: .75em;
+    padding: .75em;
+}
+
+    .order a {
+        color: black;
+    }
+
+form h3 {
+    clear: both;
+    float: left;
+    margin-left: .75em;
+    margin-top: 1.25em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+
+
+@media screen and (max-width : 600px) {
+    label {
+        font-size: .90rem;
+    }
+
+}

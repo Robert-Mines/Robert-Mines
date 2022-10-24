@@ -1,0 +1,253 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*  main body elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-image: url("../images/page/bg_page.png");
+    background-repeat: repeat-x;
+    background-color: #737373;
+}
+/* heading styles */
+h1, h2, h3, h4 {
+    color:#b30000;
+    border-bottom: 1px dashed #000000;
+}
+h1 {
+    font-size: 1.75em;
+	background-color: #f03;
+	border-bottom: thin solid #003;
+	text-align: center;
+	margin: 35;
+}
+h2 {
+	color: #333;
+	font-weight: strong;
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+h3 {
+    font-size: 1em;
+    margin-top: .5em;
+}
+h4 {
+    font-size: .75em;
+    margin-bottom: .75em;
+}
+h2:first-child {
+    font-size: 2em;
+    font-style:italic;
+}
+section ul > li {
+    list-style: none;
+}
+section ul > li:before {
+    content: "\25BA"; /* unicode right pointing arrow */
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: #000080;
+}
+td {
+	color: e60000;
+}
+
+
+
+/* module styles */
+li{
+	font-family: Arial;
+	background-color: gray;
+	color: black, bold;
+	font-size: 18;
+}
+
+section {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1em;
+    width:auto;
+	height:auto;
+}
+p{
+	font-family: georgian;
+	color: #030;
+	padding: 15;
+}
+
+
+a:link{
+	color: white;
+	font-weight: bold;
+}
+a:hover{
+	color: #060;
+}
+aside {
+    float:right;
+    border: 1px solid #000080;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: .5em;	
+    width: 20%;
+    height: 20%;
+    font-size: .75em;
+    font-style:italic;
+    margin-top: 2em;
+    margin-left: .25em;
+    margin-right: .25em;
+}
+header {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000080;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    clear: both;
+}
+
+footer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #666666;
+    margin-left: 0px;
+    padding-left: 1em;
+	padding-top: 5px;
+    border-top: 1px solid #000000;
+    clear: both;
+}
+footer p {
+    font-size: .75em;
+    text-align:center;
+    position: relative;
+}
+.internallink {
+    font-size: .75em;
+}
+
+ 
+/* page styles */
+
+#myName {
+    color: #000080;
+    font-style: italic;
+    font-weight: bold;
+}
+.highlight
+{
+    font-style: italic;
+    font-weight: bold;
+    color: #000080 !important;
+}
+.address {
+    font-style: italic;
+    clear: both;
+}
+.signature {
+    font-style: italic;
+    font-weight: bold;
+    color: #000080;
+}
+.phone, .email{
+    margin-left: 0;
+    font-size: .75em;
+    color:#000080;
+        
+}
+.phone::after {
+	content: "(555) 555-1212";
+}
+
+.primaryTable {
+	width: 50%;
+	text-align: left;
+	align-content: flex-start;
+}
+
+.summaryTable {
+	width: 100%;
+	border: 1px solid #000080;
+	border-collapse: collapse;
+	opacity: .75;
+}
+
+.summaryTable th {
+	background: #000080;
+	color: #fff;
+	text-align: center;
+}
+.summaryTable td {
+	color: #000080;
+}
+.summaryTable tr td:first-child {
+    font-weight: bold;
+}
+
+.summaryTable tbody tr:nth-of-type(odd) {
+background-color: azure;
+}
+
+/*CUSTOM CSS FOR WEEK 4
+.jumbotron{
+	background: linear-gradient(#cc0000, #00004d, #4d1933);
+	border: 2px solid black;
+}
+.jumbotron p{
+	color: #000000;
+	font-weight: bold;
+}
+
+.jumbotron h1{
+	color: #000000;
+	font-weight: bold;
+	border: 2px solid black;
+}*/
+
+section caption {
+    caption-side: top;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000080;
+}
+
+.summaryTable th.left td.left {
+text-align: right;
+}
+.addSpace {
+    margin-bottom: 1em;	
+}
+
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footerImage {
+    width: 50px;
+    height: 50px;
+}
+
+.imageHeader {
+    width: 100%;
+	height: 50%
+    
+}
+

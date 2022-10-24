@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2020, 9:02:44 AM
+    Author     : tevis
+*/
+
+/*OVERRIDES TO BOOTSTRAP FOR WEEK 4*/
+.navbar-brand {		
+	color: #cc0000 !important;
+}
+
+.nav-item a {
+	color: #cc0000 !important;
+}
+
+.nav-item a:hover {
+	color: #4d1933 !important
+}
+
+.navbar {
+	background-color: #4d1933 !important;
+}
+
+.navbar-toggler {
+	background-color: #cc0000 !important;
+}
+
+/* nav bar */
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+    .nav-item a {
+        color: #000080;
+    }	
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  background-color: #000080;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+  font-size: 2em;
+  border-bottom: none;
+}
+.jumbotron p {
+  color:inherit;
+  margin-bottom: 15px;
+  font-size: 1.25em;
+  font-weight: 200;
+}
+navbar-collapse.collapsing,
+.navbar-collapse.show {
+    color: #000080;
+    margin-top: .5em;
+}
+
+
